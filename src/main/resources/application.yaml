@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    #url:  jdbc:mysql://192.166.4.10:3306/bjjkb?characterEncoding=utf-8
+    #username: bjcms
+    #password: ZYZXzyzxbjcms2017
+    url:  jdbc:mysql://192.144.129.123:3306/bjjkb?characterEncoding=utf-8
+    username: bjjkb
+    password: mcKwm2cY4HcLk6b4
+    hikari:
+      maximum-pool-size: 30
+      minimum-idle: 10
